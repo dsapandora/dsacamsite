@@ -1,3 +1,14 @@
+<head>
+	<meta charset="utf-8" />
+    <title>Whisper Streaming</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
 <style type="text/css">
 <!--
 a {
@@ -39,4 +50,5 @@ input {
 
 -->
 </style>
+</head>
 <BODY><div style="background-color:#333; padding:10px; font-size:17px"><font color="#CCCCCC">Whisper <a href="">Streaming</a></font></a></div>
