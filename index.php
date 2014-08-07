@@ -27,10 +27,6 @@ if (strstr($rtmp_server, "://localhost/")) echo "<P class='warning'>Warning: You
 	</form></div>
 	
 <div class="info">
-  <p><b>Suggestions</b></p>
-  <?php
-include("flash_detect.php")
-?>
   <?php
 if (file_exists("uploads/last.html")) include("uploads/last.html");
 else echo "No snapshot found.";

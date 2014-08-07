@@ -24,7 +24,7 @@ a
 	text-decoration: none;
 }
 -->
-</style><title><?=$n?> Live Video Streaming</title>
+</style><title><?=$n?> ONLINE</title>
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">

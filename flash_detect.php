@@ -6,8 +6,6 @@
 
 	if(FlashDetect.installed)
 	{
-	document.write("Flash version detected: " + FlashDetect.major + "."+ FlashDetect.minor + " "); 
-	
 	
 	if(!FlashDetect.versionAtLeast(11, 2))
 	{
