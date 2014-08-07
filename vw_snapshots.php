@@ -22,11 +22,7 @@ if (isset($GLOBALS["HTTP_RAW_POST_DATA"]))
    $fp=fopen("uploads/last.html","w");
    if ($fp)
   {
-    fwrite($fp,"<div class='col-md-4'>
-                <div class='well'>
-                  <a href='channel.php?n=$stream'><IMG  class='thumbnail img-responsive' SRC='snapshots/$stream.jpg' BORDER=0></a>
-                </div>
-            </div>");
+    fwrite($fp,"<a href='channel.php?n=$stream'><IMG SRC='snapshots/$stream.jpg' BORDER=0></a>");
     fclose($fp);
   }
   
