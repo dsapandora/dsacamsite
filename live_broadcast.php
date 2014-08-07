@@ -1,5 +1,5 @@
 <?php
-if (!$_POST["username"]||$_POST["username"]=="Studio") $username="Studio".rand(100,999);
+if (!$_POST["username"]||$_POST["username"]=="Model") $username="Model".rand(100,999);
 else $username=$_POST["username"];
 include("incsan.php");
 sanV($username);
@@ -24,7 +24,7 @@ a
 }
 -->
 </style>
-<title>VideoWhisper Live Broadcast</title>
+<title>Whisper Streaming</title>
 </head>
 <body bgcolor="#333333">
 <?php
@@ -37,11 +37,7 @@ $wmode="transparent";
 <param name="movie" value="<?=$swfurl?>"></param><param bgcolor="<?=$bgcolor?>" /><param name="scale" value="noscale" /> </param><param name="salign" value="lt"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
 <param name="base" value="<?=$baseurl?>"/><param name="wmode" value="<?=$wmode?>" /></object>
 
-
-      <p>This html content is editable. The flash workspace above can have any size. Various settings can be configured from vc_login.php .
-	  <BR>
-	  Test <a target="_blank" href="channel.php?n=<?=urlencode($username)?>">channel page</a> (where people can also chat live), <a target="_blank" href="video.php?n=<?=urlencode($username)?>">plain video</a>, just <a target="_blank" href="htmlchat.php?n=<?=urlencode($username)?>">plain html external text only chat</a> (for old mobile access), <a target="_blank" href="videotext.php?n=<?=urlencode($username)?>">plain video with floating html text</a> (read only), <a target="_blank" href="ls_transcoder.php?n=<?=urlencode($username)?>">iOS Transcoder</a> (for iPhone and iPad, if available).</p>
-	  <P>Ordering a license removes banner ads and usage limitations (for licensed domain).</P>
-	  <p>For more details about this edition see VideoWhisper <a target="_blank" href="http://www.videowhisper.com/?p=PHP+Live+Streaming">PHP Live Streaming</a> page.</p></td>
+<p>ADD MODEL INFORMATION</p>
+     
 </body>
 </html>

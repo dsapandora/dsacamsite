@@ -30,9 +30,8 @@ a
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td align="center" bgcolor="#000000"><p><strong>You are watching:
-        <?=strip_tags($n)?>
-        </strong><br>
-        Channel Demo Page - Edit channel.php to change this</p>
+        <?=strip_tags($n)?></strong><br></p>
+        <div style="background-color:#333; padding:10px; font-size:17px"><font color="#CCCCCC">Whisper <a href="">Streaming</a></font></a></div>
       <p><strong><br />
       </strong></p>
       <?php
@@ -43,11 +42,11 @@ echo "<p><b>iOS detected: If your browser does not support Flash plugin, a trans
       </td>
   </tr>
   <tr>
-    <td height=400 bgcolor="#333333">
+    <td height=600 bgcolor="#333333">
 	
 	<object width="100%" height="100%">
 
-            <param name="movie" value="<?=$swfurl?>" />
+      <param name="movie" value="<?=$swfurl?>" />
       <param bgcolor="<?=$bgcolor?>" />
       <param name="scale" value="noscale" />
       <param name="salign" value="lt" />
@@ -64,7 +63,3 @@ echo "<p><b>iOS detected: If your browser does not support Flash plugin, a trans
 	<?php
 	include("flash_detect.php");
 	?>
-		<p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">The flash workspace above can have any size. Any of the panels can be disabled from vs_login.php .
-	  <BR>You can also embed just <a href="video.php?n=<?=$n?>">plain video</a> or send mobile users without flash to a <a href="htmlchat.php?n=<?=$n?>">plain html external text chat interface</a>. </font></p>
-		<p>If server supports required tools HTTP Live Streaming may be available: <a target="_blank" href="ls_transcoder.php?n=<?=urlencode($n)?>">iOS Transcoder</a> (for iPhone and iPad, if available).</p>
-      <p><a href="http://www.videowhisper.com/?p=Live+Streaming">Video Whisper Live Streaming</a></p>
