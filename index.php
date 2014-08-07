@@ -31,7 +31,8 @@ if (strstr($rtmp_server, "://localhost/")) echo "<P class='warning'>Warning: You
   <?php
 include("flash_detect.php")
 ?>
- 
+</p>
+</div>
 <div class="container">
 
 <div class="page-header">
@@ -73,9 +74,6 @@ img:hover {
 
 </div> 
 
-
-</p>
-</div>
 <?php
 include_once("clean_older.php");
 ?>
