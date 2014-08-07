@@ -23,8 +23,11 @@ if (isset($GLOBALS["HTTP_RAW_POST_DATA"]))
    if ($fp)
   {
     fwrite($fp,"<div class='col-md-4'>
-                <div class='well'>
-                  <a href='channel.php?n=$stream'><IMG  class='thumbnail img-responsive' SRC='snapshots/$stream.jpg' BORDER=0></a>
+                <div class='well'><table>
+                <tr><td>
+                  <a href='channel.php?n=$stream'><IMG width='50%' height='50%' class='thumbnail img-responsive' SRC='snapshots/$stream.jpg' BORDER=0></a>
+                </td>$stream<br/> age: 26<td></td></tr>
+                </table>
                 </div>
             </div>");
     fclose($fp);
