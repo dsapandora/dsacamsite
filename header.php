@@ -39,4 +39,4 @@ input {
 
 -->
 </style>
-<BODY><div style="background-color:#333; padding:10px; font-size:17px"><font color="#CCCCCC">VideoWhisper <a href="http://www.videowhisper.com/?p=Live+Streaming">Live Streaming</a></font></a></div>
+<BODY><div style="background-color:#333; padding:10px; font-size:17px"><font color="#CCCCCC">Whisper <a href="http://www.videowhisper.com/?p=Live+Streaming">Streaming</a></font></a></div>

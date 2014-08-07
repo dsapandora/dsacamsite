@@ -31,18 +31,6 @@ if (strstr($rtmp_server, "://localhost/")) echo "<P class='warning'>Warning: You
   <?php
 include("flash_detect.php")
 ?>
-  <p>
-  When the application starts, flash will ask you if you want to start streaming your camera and microphone. Allow flash to send your stream and select the right video and audio devices you want to use. </p>
-  <p>There are 2 ways to select hardware devices/drivers you'll use for broadcasting:<br>
-    A. Click inside webcam preview panel and a settings panel will extend it. Click camera or microphone to select.<br>
-    B. Right click Flash &gt; Settings... and browse to the webcam/microphone minitabs. </p>
-  <p>    To see how others see what you're broadcasting:<br>
-    1. Click the Channel Link box (the link will be automatically copied) <br>
-    2. Paste the link in the address bar of a new browser window or tab </p>
-<p>When broadcasting consider your video subscribers' average connection speed.<br>
-  If you observe big latency and interruptions, decrease streaming bandwidth (click webcam preview panel, drag slider and apply). If streams is fluent you can try increasing bandwidth (and quality).
-</p> 
-<p>For easy testing here's channel page of last user online:<br />
   <?php
 if (file_exists("uploads/last.html")) include("uploads/last.html");
 else echo "No snapshot found.";
